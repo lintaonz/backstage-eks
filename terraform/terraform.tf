@@ -4,8 +4,9 @@
 terraform {
 
   cloud {
+    organization = "pt-solutions"
     workspaces {
-      name = "learn-terraform-eks"
+      name = "backstage-eks"
     }
   }
 
