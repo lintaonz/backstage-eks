@@ -41,6 +41,8 @@ dist-types
 # MkDocs build output
 site
 
+.terrafrom
+
 # Local configuration files
 *.local.yaml
 
@@ -49,3 +51,6 @@ site
 
 # vscode database functionality support files
 *.session.sql
+
+.terraform
+dist-types
